@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(24, 24, 32);
+}
+/* nav */
+.nav{
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row; 
+  height: 60px; 
+  background-color:  rgb(43, 43, 49); 
+  align-items: center;
+}
+.db_link,.db_nolink{
+  margin-left: 20px;
+  font-size: 20px; 
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  border: 2px solid transparent;
+}
+.db_link:hover{
+  border-bottom: 2px solid yellow;
+}
+.db_link{
+  cursor: pointer;
+}
+.db_nolink{
+  color: gray;
+}
+
+
+.nav_plus{
+  background: linear-gradient(180deg,rgb(60, 209, 60), yellow); 
+  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  margin-left: 900px; 
+  font-size: 15px;
+  color: white;
+  border: none;
+  margin-right: 10px;
+}
+.nav_plus:hover{
+  background: none;
+  background-color: gray;
+  color:   white; 
+}
+
+.hambg, .db_search_btn,.db_notf_btn,.db_profile_btn{
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+}
+.hambg:hover, .db_search_btn:hover,.db_notf_btn:hover,.db_profile_btn:hover{
+  background-color: gray;
+}
+
+
+
+
+
+/* container */
+.db_cont{
+  display: flex;
+  flex-direction: row; 
+ 
+ }
+.db_sidebar{
+
+  background-color:  rgb(43, 43, 49);
+  margin-top: 2px;
+  color: white;
+}
+
+.db_mainbar{
+  text-align: center; 
+  /* background-color: blanchedalmond; */
+  color: white;
+  width: 100%;
+}
+
+.db_incont{
+  margin: 20px auto;
+  /* background-color: blueviolet; */
+  text-align: start;
+  width: 600px;
+  color: white;
+
+}
+.db_items{
+  width: 500px;
+  height: 200px;
+  margin: 10px;
+  background-color: rgb(43, 43, 49); 
+  border-radius: 10px;
+}
+.db_itemhead{
+  background-color: rgb(76, 76, 78);
+  height: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  
+}
+.db_itemmid{
+  height: 100px;
+  
+}
+.db_itemmid li{
+  list-style: none;
+}
+
+.db_itembtm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+height: 50px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+.db_itembtm_link{
+  text-decoration: none;
+  color: white;
+ 
+}
+
+.db_mid_btn{
+  height: 60px; 
+margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.db_daily_btn{
+  border-radius: 10px;
+  background-color: gray;
+  color: white;
+  width: 120px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+margin: 10px;
+margin-left: 0px;
+
+}
+.db_daily_btn:hover{
+margin-top: 5px;
+}
+.db_stat_btn{
+  border-radius: 10px;
+  background-color:transparent;
+  border: 2px solid gray;
+  color: white;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+font-size: 15px;
+margin: 10px;
+
+}
+.db_stat_btn:hover{
+  margin-top: 5px;
+
+}

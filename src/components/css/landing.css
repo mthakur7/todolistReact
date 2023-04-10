@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;   
+}
+
+.land_head {
+    
+display: flex;
+flex-direction: row;
+margin: 30px;
+height: 60px;
+align-items: center;
+
+}
+
+
+.tsk{
+  font-size: 30px; 
+  font-weight:bold;
+  color: white;  
+}
+.feat{
+    font-size: 20px; 
+    border-bottom: transparent 3px solid;
+    text-decoration: none;
+    color: white; 
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.lg{
+    margin-left: 900px ;
+    border-bottom: transparent 3px solid;
+    text-decoration: none;
+    color: white; 
+    padding: 10px;
+    
+}
+.feat:hover, .lg:hover{
+   
+    border-bottom: yellow 3px solid;
+    }
+
+
+.hd_icon{ 
+    
+    background-image:  linear-gradient(180deg,rgb(60, 209, 60), yellow);
+    border-radius: 8px;
+    border: none;
+    height: 40px;
+    width: 40px;    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+   
+
+   
+}
+.land_head .fas{
+    text-shadow: 2px 2px 2px rgb(66, 66, 66);    
+}
+
+
+
+.hd_btn{
+    background-color: transparent;
+    color: white;
+    border: rgb(83, 82, 82) 3px solid;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px; 
+    margin-left: 30px;
+
+}
+.hd_btn:hover{
+    border: yellow 3px solid;
+    cursor: pointer;
+}
+
+/*mid///////////////////////////////////*/
+.land_mid{   
+    text-align: center;
+    margin: 80px auto; 
+    margin-bottom: 0px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    width: 700px;
+    
+}
+.land_mid h1{
+    color: white;
+    font-size: 50px;  
+}
+.land_mid h5{
+    color: rgb(175, 167, 167);
+    width: 300px;
+}
+
+.mid_btn{
+    text-align: center;
+    width: 500px;   
+    margin: 0 auto;
+   
+
+
+}
+.mid_btn{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid_btn button{   
+    border-radius: 10px;
+    border: none;
+    width: 130px;
+    padding: 10px;
+    height: 50px;
+    box-shadow: 0px 3px 3px rgb(90, 88, 88);
+    font-size: 15px;
+    color: white;
+}
+.mid1{
+background-image:  linear-gradient(180deg,rgb(60, 209, 60), yellow);
+margin-top: 20px;
+margin-right: 30px;
+}
+.mid2{
+    background-color:rgb(59, 58, 58) ;   
+    margin-top: 20px;
+}
+.mid1:hover{
+  margin-top:10px ;
+cursor: pointer;
+}
+.mid2:hover{
+    margin-top:10px ;
+    cursor: pointer;
+}
+
+.dot1{
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 120%, rgb(255, 255, 93), rgb(230, 227, 60) 30%, #79f175 80%, green  100%);     
+     width: 90px; 
+      height: 90px;
+      margin-left: 150px;
+}
+.dot2{
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 120%, rgb(240, 240, 240), rgb(168, 168, 166) 10%, #3b3d3b 50%, rgb(0, 0, 0)  100%);      
+    width: 90px;
+    height: 90px;
+    margin-left: 1200px;
+    position: relative;   
+    top: -220px;
+    
+}
+
+
+.dot3{
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 120%, rgb(255, 255, 93), rgb(247, 243, 4) 30%, #79f175 80%, green  100%);     
+     width: 120px;
+   height: 120px;
+  margin-left: 900px;
+}
+.dot4{
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 120%, rgb(240, 240, 240), rgb(168, 168, 166) 10%, #3b3d3b 50%, rgb(0, 0, 0)  100%);      
+    width: 50px;
+ height: 50px;
+ margin-left: 560px;
+ 
+}

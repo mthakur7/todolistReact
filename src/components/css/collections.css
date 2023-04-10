@@ -1,0 +1,131 @@
+.cl_cont{
+  display: flex;
+  flex-direction: column;
+ width: 950px;
+ /* background-color: green; */
+  color: white;
+  margin: 40px auto;
+  
+ 
+}
+
+.cl_btn{
+    height: 60px; 
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .cl_fav_btn{
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+  margin: 10px;
+  margin-left: 0px;
+  
+  }
+  .cl_fav_btn:hover{
+  margin-top: 5px;
+  }
+  .cl_allc_btn{
+    border-radius: 10px;
+    background-color:transparent;
+    border: 2px solid gray;
+    color: white;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+  font-size: 15px;
+  margin: 10px;
+  
+  }
+  .cl_allc_btn:hover{
+    margin-top: 5px;
+  
+  }
+  .cl_incont{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    flex-wrap: wrap;
+  }
+  .cl_item{
+    width: 300px;
+    height: 200px;
+background-color: rgb(43, 43, 49);
+margin-top: 15px;
+margin-right: 15px;
+display: flex;
+flex-direction: column;
+border-radius: 20px;
+padding-bottom: 10px;
+
+  }
+  .cl_item:hover{
+    transform: scale(1.05);
+    /* box-shadow: 2px 2px 9px gray; */
+  }
+  .cl_itemcolor{
+    background-color: rgb(61, 255, 229);
+    height: 60px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+    
+  }
+  .i{
+    background-color: rgb(74, 247, 58);
+  }
+  .cl_itemtitle{
+  display: flex;
+  flex-direction: row; 
+  }
+  .cl_itemtitle1{
+    /* background-color: rgb(9, 255, 0); */
+    height: 110px;
+    width: 210px;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-top: 10px;   
+    color: gray;
+    text-align: bottom;
+  }
+  .cl_itemtitle1 h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    
+  }
+  .cl_itemtitle2{
+    border:5px solid rgb(27, 4, 133);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 70px;
+  }
+  .cl_add{
+    background-color: transparent;
+    border:3px solid rgb(43, 43, 49);
+    font-size: 40px;
+    width: 300px;
+    height: 100px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-right: 15px;
+
+
+  }
+  .cl_add:hover{
+    background-color: rgb(43, 43, 49);
+    color: white;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,95 @@
+
+.fnf_dot{
+    height: 200px;
+    /* background-color: blue; */
+}
+.fnf_dot1{
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 120%, rgb(255, 255, 93), rgb(230, 227, 60) 30%, #79f175 80%, green  100%);     
+     width:280px; 
+      height: 280px;
+      position: relative;
+      top: -60px;
+      right: 100px;
+      
+}
+.fnf_dot2{
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 120%, rgb(240, 240, 240), rgb(168, 168, 166) 10%, #3b3d3b 50%, rgb(0, 0, 0)  100%);      
+    width: 90px;
+    height: 90px;
+    position: relative;
+    top: -120px;
+    
+    
+}
+.fnf_dot_botm{
+    height: 280px;
+    /* background-color: green; */
+    overflow: hidden;
+}
+.fnf_dot3{
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 120%, rgb(255, 255, 93), rgb(230, 227, 60) 30%, #79f175 80%, green  100%);     
+     width:120px; 
+      height: 120px;
+      position: relative;
+      bottom: -60px;
+      left: 1200px;
+     
+    
+      
+}
+.fnf_dot4{
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 120%, rgb(240, 240, 240), rgb(168, 168, 166) 10%, #3b3d3b 50%, rgb(0, 0, 0)  100%);      
+    width: 290px;
+    height: 290px;
+    position: relative;
+    bottom: 15px;
+    left: 1300px;        
+}
+
+.fnf_cont{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blanchedalmond; */
+    flex-direction: column;
+    width: 800px;
+    height: 230px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.fnf_cont h1{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+.fnf_cont h4{
+    color: gray;
+}
+
+.fnf_bh{
+ 
+    height: 80px;
+    width: 300x;
+  /* background-color: hotpink; */
+}
+.fnf_bh button{
+    background:  linear-gradient(180deg,rgb(60, 209, 60), yellow);   
+    border: none;
+    color: white;
+    margin-top:10px;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.fnf_cont button:hover{   
+    cursor: pointer;
+    margin-top: 5px;
+}

@@ -1,0 +1,99 @@
+
+.sg_dot{
+    /* background-color: greenyellow; */   
+    height: 100px;
+}
+.sg_dot1{
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 120%, rgb(255, 255, 93), rgb(230, 227, 60) 30%, #79f175 80%, green  100%);     
+     width:180px; 
+      height: 180px;
+      position: relative;
+      top: -60px;
+      left: 300px;
+      
+}
+.sg_dot2{
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 120%, rgb(240, 240, 240), rgb(168, 168, 166) 10%, #3b3d3b 50%, rgb(0, 0, 0)  100%);      
+    width: 90px;
+    height: 90px;
+    position: relative;
+    top: -120px;
+     left: 1200px;
+    
+}
+.sg_cont{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    justify-content: center;
+    align-items: center;  
+   /* background-color: tomato; */
+   width: 400px;
+   /*height: 600px; */
+   margin: 0px auto;
+   /* position: relative;
+   top: -150px; */
+}
+.sg{
+    border: rgb(61, 60, 63) 3px solid;
+    width: 400px;
+    height: 60px;
+    margin: 10px;
+    background-color: transparent;
+    color: gray;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 20px;
+}
+.sg_cont h1{
+    font-size: 50px;  
+    color: white;
+    margin-top: 20px;
+   
+}
+.sg_btn1:hover{
+background-color: rgb(61, 60, 63);
+cursor: pointer;
+color: white;
+}
+.sg_inp:hover{
+border: yellow 3px solid;
+color: white;
+}
+.sg_inp:focus{
+  outline:  none;  
+/* outline-offset: 3px; */
+}
+
+.sg_btn2{
+    width: 500px;
+    height: 80px;
+    margin-bottom: 20px;
+   /* background-color: rgb(240, 240, 240); */
+
+}
+.sg_btn2 button{
+    background:  linear-gradient(180deg,rgb(60, 209, 60), yellow);   
+    border: none;
+    color: white;
+    margin-top:10px;
+}
+.sg_btn2 button:hover{
+    margin-top:5px;
+    cursor: pointer;
+}
+
+.sg_cont a{
+    text-decoration: none;
+    color: white;
+   margin-top: 10px;
+   
+}
+a.sg_bh{
+    margin-top: 10px;
+    color: gray;
+}
+
